@@ -1,0 +1,19 @@
+{
+  "name": "auror-word-count",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wordcount.js",
+  "scripts": {
+    "run": "node wordcount.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-alipate/Auror-Word-Count.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-alipate/Auror-Word-Count/issues"
+  },
+  "homepage": "https://github.com/jonathan-alipate/Auror-Word-Count#readme"
+}
