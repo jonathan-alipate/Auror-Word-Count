@@ -9,7 +9,13 @@ function findMostCommonWord(sentence){
             uniqueWords[word] = 1
         }
     })
-    console.log(uniqueWords)
+    
+    //We have a word count object uniqueWords, now we find the most common word by count
+    const sortedWordCountArray = Object.values(uniqueWords).sort();
+    //extract the max count
+    const maxCount = sortedWordCountArray[sortedWordCountArray.length - 1]
+    console.log(maxCount)
+
 }
 
-findMostCommonWord('the cat jumped over the hat')
+findMostCommonWord('the cat jumped over over the hat hat hat')
